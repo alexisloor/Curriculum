@@ -1,16 +1,56 @@
-h1 {
-color: red;
-}
-
 * {
-font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color:#eff0f3;
 }
 
 h2 {
-font-family: Times New Roman, serif;
+    color: #0d0d0d;
+    font-family: Times New Roman, serif;
 }
 
 h1 {
-font-family: Georgia, serif;
+    color: #0d0d0d;
+    font-family: Georgia, serif;
+    text-align: center;
 }
 
+img{
+    width: 100px;
+    border-width: 3px;
+    border-color: black;
+    
+}
+
+.imgagen-certificados{
+    width: 200px;
+}
+
+p{
+    color: #2a2a2a;
+}
+
+.flex-container{
+    border: 1px solid black;
+    background: #a1b4ee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.caja{
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.imgagen-soft{
+    width: 120px;
+    height: 120px;
+}
